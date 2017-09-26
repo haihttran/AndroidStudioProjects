@@ -1,13 +1,13 @@
 package com.example.tranh.wikiapp;
 
+import android.support.v4.app.Fragment;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class WikiAppActivity extends AppCompatActivity {
+public class WikiAppActivity extends SingleFragmentActivity {
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_wiki_app);
+   public Fragment createFragment(){
+        return WikiAppFragment.newInstance();
     }
 }
