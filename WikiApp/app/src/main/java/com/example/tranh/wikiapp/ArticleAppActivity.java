@@ -4,7 +4,7 @@ import android.support.v4.app.Fragment;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class WikiAppActivity extends SingleFragmentActivity {
+public class ArticleAppActivity extends SingleFragmentActivity {
 
     @Override
    public Fragment createFragment(){
